@@ -1,8 +1,7 @@
 import React, { useContext } from 'react'
-import Login from "./Component/Auth/Login";
 import { useEffect, useState } from 'react'
-import EmployeeDashboard from './component/Dashboard/EmployeeDashboard'
-import AdminDashboard from './component/Dashboard/AdminDashboard'
+import EmployeeDashboard from './Component/Dashboard/EmployeeDashboard'
+import AdminDashboard from './Component/Dashboard/AdminDashboard'
 import { getLocalStorage, setLocalStorage } from '../utils/LocalStorage'
 import { AuthContext } from './Context/AuthProvider'
 
