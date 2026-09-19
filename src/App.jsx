@@ -3,7 +3,7 @@ import Login from "./Component/Auth/Login";
 import { useEffect, useState } from 'react'
 import EmployeeDashboard from './component/Dashboard/EmployeeDashboard'
 import AdminDashboard from './component/Dashboard/AdminDashboard'
-import { setLocalStorage, getLocalStorage } from './utils/localStorage'
+
 import { AuthContext } from './Context/AuthProvider'
 
 const App = () => {
